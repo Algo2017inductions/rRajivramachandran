@@ -66,7 +66,7 @@ void simulator2(int A[50], int n)
 			        }
 		        }
 		    
-			} 
+		    } 
 			cout<<"Status:\n";
 			if(apt == 0)
 			    cout<<"Not processable Status:\n";
@@ -79,7 +79,7 @@ void simulator2(int A[50], int n)
 					if(A[k] != 0)   //if only cloth removed partially
 					cout<<A[k]<<" ";
 				}
-		    }
+		        }
 	}
 	cout<<"\n";
 }
@@ -113,9 +113,9 @@ void simulator3(int A[50], int n)
 				        apt = A[j];
 				        pos = j;
 			        }
-		        }
+		       }
 		    
-			} 
+		    } 
 			cout<<"Status:\n";	
 			if(apt == 0)
 			    cout<<"Not processable  Status:\n";  
@@ -127,7 +127,7 @@ void simulator3(int A[50], int n)
 					if(A[k] != 0)   //if only cloth removed partially
 					cout<<A[k]<<" ";
 				}
-		    }
+		        }
 	}
 	cout<<"\n";
 }
