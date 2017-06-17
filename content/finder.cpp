@@ -114,7 +114,7 @@ int main()
    	strcpy(pagenum,"page_");
    	while(st>>P)
    	{
-	    cout<<"Word:"<<P<<"\n";
+	    cout<<"Word: "<<P<<"\n";
 	    cout<<"Occurances:"<<"\n";
 	    flag = -1;
 	   	for(int i = 1; i <= 25; i++)
@@ -128,10 +128,10 @@ int main()
 				if(m != -1)
 				{
 				    for(int j = 1; j <= m; j++)     // number of times word found on line k+1
-					cout<<"Page: "<<i<<", "<<"line: "<<k + 1<<"\n";
+					cout<<"Page "<<i<<", "<<"line "<<k + 1<<"\n";
 				flag = 1;
-			    }
-		    }
+			        }
+		        }
 		    strcpy(pagenum,"page_");
 	    }
 		if(flag == -1)
